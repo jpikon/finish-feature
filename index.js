@@ -36,7 +36,9 @@ Publishing: {{version}} - {{description}}
 require('./lib/validate')(successfulValidation, failedValidation);
 
 function successfulValidation() {
-    console.log('success');
+    require('./lib/input')(function(input) {
+        console.log(input);
+    });
 }
 
 function failedValidation(error) {

@@ -1,6 +1,6 @@
 {
   "name": "publish-feature",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tool that makes a feature publishing process simple",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   "dependencies": {
     "nodegit": "^0.16.0",
     "nodegit-flow": "^0.3.0",
+    "prompt": "^1.0.0",
     "q": "^1.4.1"
   }
 }
