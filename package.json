@@ -1,0 +1,25 @@
+{
+  "name": "publish-feature",
+  "version": "0.0.1",
+  "description": "Tool that makes a feature publishing process simple",
+  "main": "index.js",
+  "scripts": {
+    "test-e2e": "echo \"Error: no test specified\" && exit 1",
+    "test-unit": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpikon/finish-feature.git"
+  },
+  "author": "Jakub Pikoń",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpikon/finish-feature/issues"
+  },
+  "homepage": "https://github.com/jpikon/finish-feature#readme",
+  "dependencies": {
+    "nodegit": "^0.16.0",
+    "nodegit-flow": "^0.3.0",
+    "q": "^1.4.1"
+  }
+}
